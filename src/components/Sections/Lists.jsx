@@ -2,8 +2,10 @@ import React from 'react';
 import './list.scss';
 const Lists = () => {
     return (
-        <div>
-            <h2>List</h2>
+        <div className='listWrapper'>
+            <div class="spinner-border text-danger" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
         </div>
     );
 };

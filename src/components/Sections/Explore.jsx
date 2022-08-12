@@ -2,8 +2,10 @@ import React from 'react';
 import './explore.scss';
 const Explore = () => {
     return (
-        <div>
-            <h1>Explore</h1>
+        <div className='explore'>
+            <div className="spinner-grow text-info" role="status">
+                <span className="visually-hidden">Loading...</span>
+            </div>
         </div>
     );
 };

@@ -5,6 +5,7 @@ const Header = () => {
     return (
         <div className='header'>
             <Navbar/>
+            <a className='tweetLink' href="#">Tweet</a>
         </div>
     );
 };

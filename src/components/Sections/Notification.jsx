@@ -2,8 +2,11 @@ import React from 'react';
 import './notify.scss';
 const Notification = () => {
     return (
-        <div>
-            <h1>Notification</h1>
+        <div className='notifyWrapper'>
+
+            <div class="spinner-border text-success" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
         </div>
     );
 };

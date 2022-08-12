@@ -10,25 +10,25 @@ import Lists from './components/Sections/Lists';
 import Feeds from './components/Sections/Feeds';
 import Profile from './components/Sections/Profile';
 import More from './components/Sections/More';
-import {Routes, Route} from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import './main.scss';
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='wrapper container'>
+    <div className='container d-flex'>
       <Header />
-      <main>
+      <main className='mainWrap'>
         <Routes>
-        <Route path="/" element={ <Main />} />
-        <Route path="/home" element={ <Home />} />
-        <Route path="/explore" element={<Explore/>}/>
-        <Route path="/notify" element={<Notification/>}/>
-        <Route path="/message" element={<Message/>}/>
-        <Route path="/bookmark" element={<Bookmarks/>}/>
-        <Route path="/list" element={<Lists/>}/>
-        <Route path="/profile" element={ <Profile />} />
-        <Route path="/more" element={<More/>}/>
+          <Route path="/" element={<Main />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/explore" element={<Explore />} />
+          <Route path="/notify" element={<Notification />} />
+          <Route path="/message" element={<Message />} />
+          <Route path="/bookmark" element={<Bookmarks />} />
+          <Route path="/list" element={<Lists />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/more" element={<More />} />
         </Routes>
       </main>
       <Feeds />

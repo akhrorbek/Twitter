@@ -1,5 +1,91 @@
 .feeds {
-    background-color: green;
     height: 100vh;
-    width:250px;
+    width: 580vh;
+
+    &__input {
+        background-image: url("../../assets/images/Search/searchicon.svg");
+        background-repeat: no-repeat;
+        background-position: left 10px center;
+        background-size:15px;
+        font-size: 12px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: none;
+        background-color: #EFF3F4;
+        border-radius: 31px;
+        padding-left: 40px;
+    }
+
+    &__list {
+        background-color:#EFF3F4 ;
+        margin: 0;
+        padding: 8px;
+        list-style: none;
+        border-radius: 5px;
+    }
+    &__heading {
+        margin: 0;
+        padding: 0;
+    }
+    &__itemWrap {
+        display: flex;
+        align-items: center;
+    }
+    &__iconImg {
+        margin-left: auto;
+        margin-right: 20px;
+    }
+    &__header {
+        font-weight: 900;
+    }
+    &__heading {
+        margin: 0;
+        padding: 0;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    &__text {
+        margin: 0;
+        padding: 0;
+        color: #393B41;
+        opacity: 0.6;
+    }
+    &__link {
+        text-decoration: none;
+    }
+    &__socialWrap {
+        margin-top: 15px;
+        background-color: #EFF3F4;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    &__socialList {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    &__socialItem {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__socialItemWrap {
+        display: flex;
+    }
+
+    &__socialHeading {
+        margin: 0;
+        padding: 0;
+    }
+    &__socialLink {
+        color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+        text-decoration: none;
+        background-color: rgb(32, 29, 29);
+    }
 }

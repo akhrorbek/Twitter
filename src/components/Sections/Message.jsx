@@ -2,8 +2,10 @@ import React from 'react';
 import './message.scss';
 const Message = () => {
     return (
-        <div>
-            <h1>Message</h1>
+        <div className='messageWrapper'>
+          <div class="spinner-border text-primary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
         </div>
     );
 };

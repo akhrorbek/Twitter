@@ -2,8 +2,10 @@ import React from 'react';
 import './more.scss';
 const More = () => {
     return (
-        <div>
-            <h1>More</h1>
+        <div className='moreWrapper'>
+           <div class="spinner-border text-secondary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
         </div>
     );
 };

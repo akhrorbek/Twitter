@@ -1,6 +1,6 @@
-.Navbar {
-    width: 250px;
-}
+// .Navbar {
+//     padding: 10px;
+// }
 .navList {
     margin: 0;
     padding: 0;
@@ -26,4 +26,31 @@
 }
 .navImg {
     margin-right: 15px;
+}
+
+.link {
+    &__homeActive {
+        color: red;
+    }
+    &__exploreActive {
+        color:seagreen;
+    }
+    &__notifyActive {
+        color:darkblue;
+    }
+    &__messageActive {
+        color:chartreuse;
+    }
+    &__bookmarkActive {
+        color: deeppink;
+    }
+    &__listActive {
+        color:brown;
+    }
+    &__profileActive {
+        color: blueviolet;
+    }
+    &__moreActive {
+        color: cornflowerblue;
+    }
 }
